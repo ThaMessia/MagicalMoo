@@ -58,6 +58,12 @@ document.getElementById("allianceButton").style.color = "pink"
 document.getElementById("storeButton").style.color = "pink"
 document.getElementById("chatButton").style.color = "pink"
 
+document.getElementsByClassName("storeTab")[0].id = "hats"
+document.getElementById("hats").style.color = "pink"
+
+document.getElementsByClassName("storeTab")[1].id = "accessories"
+document.getElementById("accessories").style.color = "pink"
+
 /*const button = document.createElement("button")
 //button.innerText = "Rate"
 
