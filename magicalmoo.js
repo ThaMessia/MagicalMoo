@@ -58,7 +58,7 @@ document.getElementById("killCounter").style.color = "lightblue"
 document.getElementById("chatBox").style.color = "orange"
 
 document.getElementById("ageText").style.color = "lightblue"
-document.getElementById("ageBarBody").style.backgroundColor = "orange"
+document.getElementById("ageBarBody").style.backgroundColor = "pink"
 
 document.getElementById("allianceButton").style.color = "pink"
 document.getElementById("storeButton").style.color = "pink"
