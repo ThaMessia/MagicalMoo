@@ -40,6 +40,12 @@ document.getElementById("partyButton").style.color="orange"
 /* MENU */
 /* GAME */
 
+CanvasRenderingContext2D.prototype.roundRect = ((oldFunc) => function() {
+    if (this.fillStyle == "#8ecc51") this.fillStyle = "lightblue";
+    return oldFunc.call(this, ...arguments);
+})
+(CanvasRenderingContext2D.prototype.roundRect);
+
 document.getElementById("pingDisplay").style.color = "pink"
 
 document.getElementById("diedText").style.color = "lightblue"
@@ -57,6 +63,11 @@ document.getElementById("ageBarBody").style.backgroundColor = "orange"
 document.getElementById("allianceButton").style.color = "pink"
 document.getElementById("storeButton").style.color = "pink"
 document.getElementById("chatButton").style.color = "pink"
+
+document.getElementById("foodDisplay").style.color = "lightblue"
+document.getElementById("woodDisplay").style.color = "lightblue"
+document.getElementById("stoneDisplay").style.color = "lightblue"
+document.getElementById("scoreDisplay").style.color = "lightblue"
 
 document.getElementsByClassName("storeTab")[0].id = "hats"
 document.getElementById("hats").style.color = "pink"
