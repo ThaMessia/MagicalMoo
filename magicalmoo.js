@@ -37,8 +37,12 @@ document.getElementById("youtuberOf").innerHTML="Developed by: <a href='https://
 
 document.getElementById("partyButton").style.color="orange"
 
-document.getElementById("promoImgHolder").innerHTML = `<iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
+
+document.getElementById("promoImgHolder").innerHTML = `
+<div class='musicSquareManager' id="musicSquare"><h1>MUSIC PLAYER</h1></div>
+<iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
 document.getElementById("promoImgHolder").style.backgroundImage = site1
+document.getElementById("musicSquare").style.color = "orange"
 
 /* MENU */
 /* GAME */
