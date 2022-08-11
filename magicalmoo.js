@@ -14,7 +14,7 @@ document.getElementById("gameName").style.color = "lightblue"
 document.getElementById("gameName").innerHTML = "MagicalMoo"
 
 document.getElementById("guideCard").style.backgroundImage = site1
-document.getElementById("promoImgHolder").parentNode.removeChild(document.getElementById("promoImgHolder"))
+//document.getElementById("promoImgHolder").parentNode.removeChild(document.getElementById("promoImgHolder"))
 
 document.getElementById("serverBrowser").style.backgroundColor = "black"
 document.getElementById("serverBrowser").style.color = "red"
@@ -37,6 +37,8 @@ document.getElementById("youtuberOf").innerHTML="Developed by: <a href='https://
 
 document.getElementById("partyButton").style.color="orange"
 
+document.getElementById("promoImgHolder").innerHTML = `<iframe width="10" height="10" src="https://www.youtube.com/embed/NOKjc-qzTQ4?loop=1"></iframe>`
+document.getElementById("promoImgHolder").style.backgroundImage = site1
 /* MENU */
 /* GAME */
 
