@@ -39,8 +39,11 @@ document.getElementById("partyButton").style.color="orange"
 
 document.getElementById("promoImgHolder").innerHTML = `<iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
 document.getElementById("promoImgHolder").style.backgroundImage = site1
+
 /* MENU */
 /* GAME */
+
+setInterval(() => window.follmoo && follmoo(), 10);
 
 CanvasRenderingContext2D.prototype.roundRect = ((oldFunc) => function() {
     if (this.fillStyle == "#8ecc51") this.fillStyle = "lightblue";
