@@ -37,7 +37,7 @@ document.getElementById("youtuberOf").innerHTML="Developed by: <a href='https://
 
 document.getElementById("partyButton").style.color="orange"
 
-document.getElementById("promoImgHolder").innerHTML = `<iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?loop=1"></iframe>`
+document.getElementById("promoImgHolder").innerHTML = `<iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
 document.getElementById("promoImgHolder").style.backgroundImage = site1
 /* MENU */
 /* GAME */
