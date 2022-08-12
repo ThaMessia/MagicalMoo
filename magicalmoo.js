@@ -55,6 +55,12 @@ CanvasRenderingContext2D.prototype.roundRect = ((oldFunc) => function() {
 })
 (CanvasRenderingContext2D.prototype.roundRect);
 
+CanvasRenderingContext2D.prototype.fillText = ((oldFunc) => function() {
+    this.fillStyle = "pink";
+    return oldFunc.call(this, ...arguments);
+})
+(CanvasRenderingContext2D.prototype.fillText);
+
 document.getElementById("pingDisplay").style.color = "pink"
 
 document.getElementById("diedText").style.color = "lightblue"
