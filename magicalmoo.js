@@ -92,6 +92,22 @@ document.getElementById("accessories").style.color = "pink"
 
 document.getElementById("mapDisplay").style.backgroundImage = site3
 
+var unequipManager = { Unequip: 0 };
+
+function unequip(name) {
+    var manager = unequipManager.name;
+    storeBuy(manager);
+    storeEquip(manager);
+}
+//Seems a little too cheaty for a "normal" client ;)
+
+document.addEventListener('keydown', function(e) {
+    switch (e.keyCode) {
+        case 16: unequip('Unequip'); break;
+    }
+});
+
+
 /*const button = document.createElement("button")
 //button.innerText = "Rate"
 
