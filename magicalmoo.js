@@ -37,13 +37,19 @@ document.getElementById("youtuberOf").innerHTML="Developed by: <a href='https://
 
 document.getElementById("partyButton").style.color="orange"
 
-
-document.getElementById("promoImgHolder").innerHTML = `
-<div class='musicSquareManager' id="musicSquare"><h1>MUSIC PLAYER</h1></div>
-<iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
-document.getElementById("promoImgHolder").style.backgroundImage = site1
-document.getElementById("musicSquare").style.color = "orange"
-
+if (!localStorage.moo_name == "GigaChad") {
+    document.getElementById("promoImgHolder").innerHTML = `
+      <div class='musicSquareManager' id="musicSquare"><h1>MUSIC PLAYER</h1></div>
+      <iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
+    document.getElementById("promoImgHolder").style.backgroundImage = site1
+    document.getElementById("musicSquare").style.color = "orange"
+} else {
+    document.getElementById("promoImgHolder").innerHTML = `
+      <div class='musicSquareManager' id="musicSquare"><h1>MUSIC PLAYER</h1></div>
+      <iframe width="10" height="10" src="https://www.youtube.com/embed/EZEfN5z8Mlg?start=15&end=10000"></iframe>`
+    document.getElementById("promoImgHolder").style.backgroundImage = site1
+    document.getElementById("musicSquare").style.color = "orange"
+}
 /* MENU */
 /* GAME */
 
@@ -103,7 +109,7 @@ function unequip(name) {
 
 document.addEventListener('keydown', function(e) {
     switch (e.keyCode) {
-        case 16: unequip('Unequip'); break; //16 is Shift key 
+        case 16: unequip('Unequip'); break;
     }
 });
 
