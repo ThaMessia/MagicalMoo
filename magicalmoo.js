@@ -2,7 +2,7 @@
 
 var site1 = "url('https://mywowo.net/media/images/cache/new_york_museum_of_modern_art_03_notte_stellata_van_gogh_jpg_1200_630_cover_85.jpg')"
 var site2 = "url('https://thumbs.dreamstime.com/b/beautiful-sky-clouds-sunset-purple-summer-sunset-beautiful-sky-clouds-sunset-purple-summer-sunset-199058333.jpg')"
-var site3 = "url('https://blogger.googleusercontent.com/img/a/AVvXsEg29Zg6KZG9lvcky22z8VZdO8mSc8w-u3fCaNNg3qnDCF6M2gGB_kwmAcJaCZ5cpAtNDRLUmMXmfIXpPlKAvPWo3xdF3GC40BJk05pze5CbgY9KR6OokfYP006zeyikXViQFGTbtj1yfSYYqo_ZkB93vjTULaYX-k2SbaEL870iSUqpCsVoj_aLE-Kv')"
+var site3 = "url('https://i.imgur.com/fgFsQJp.png')"
 
 document.title = "MagicalMoo 0.1-ALPHA"
 
