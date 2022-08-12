@@ -37,7 +37,7 @@ document.getElementById("youtuberOf").innerHTML="Developed by: <a href='https://
 
 document.getElementById("partyButton").style.color="orange"
 
-if (!localStorage.moo_name == "GigaChad") {
+if (localStorage.moo_name != "GigaChad") {
     document.getElementById("promoImgHolder").innerHTML = `
       <div class='musicSquareManager' id="musicSquare"><h1>MUSIC PLAYER</h1></div>
       <iframe width="10" height="10" src="https://www.youtube.com/embed/3RqvQ1krY0Y?start=1&end=10000"></iframe>`
