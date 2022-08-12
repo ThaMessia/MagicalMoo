@@ -103,7 +103,7 @@ function unequip(name) {
 
 document.addEventListener('keydown', function(e) {
     switch (e.keyCode) {
-        case 16: unequip('Unequip'); break;
+        case 16: unequip('Unequip'); break; //16 is Shift key 
     }
 });
 
